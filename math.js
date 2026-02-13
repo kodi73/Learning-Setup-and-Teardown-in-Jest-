@@ -16,4 +16,4 @@ function getValue() {
     return value;
 }
 
-module.exports = {setValue, increment, getValue};
+export default {setValue, increment, getValue};
