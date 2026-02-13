@@ -1,4 +1,4 @@
-import { setValue, increment, getValue } from './math.js';
+const { setValue, increment, getValue } = require('./math.js');
 
 // Runs before executing every test to prevent state sharing of global variables
 beforeEach(() => {
